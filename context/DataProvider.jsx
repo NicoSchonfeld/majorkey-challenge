@@ -2,7 +2,7 @@ import React, { useState, createContext, useEffect } from "react";
 
 export const DataContext = createContext();
 
-const initialData = [{ id: 1, text: "Comprar Pan" }];
+const initialData = [{ id: 1, text: "Buy bread" }];
 
 export default function DataProvider({ children }) {
   const [items, setItems] = useState(initialData);

@@ -213,6 +213,7 @@
 }
 
 .textLoading {
+  text-align: center;
   font-size: 60px;
   color: var(--white);
   font-weight: 500;
@@ -238,5 +239,13 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .textLoading {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 500;
   }
 }

@@ -29,7 +29,9 @@ export default function Header() {
               </Link>
             </li>
             <li className={styles.menuItem}>
-              <Link href={"https://github.com/NicoSchonfeld"}>
+              <Link
+                href={"https://github.com/NicoSchonfeld/majorkey-challenge"}
+              >
                 <a target={"_blank"} className={styles.menuIcon}>
                   <FaGithub />
                 </a>

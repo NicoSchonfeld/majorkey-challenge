@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <Image
+          <img
             className={styles.logoImage}
             src={"/image/M.svg"}
             alt={"Logo"}

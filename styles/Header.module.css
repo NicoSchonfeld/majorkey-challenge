@@ -71,3 +71,9 @@
   border: 1px solid var(--darkHover);
   color: var(--dark);
 }
+
+@media screen and (max-width: 992px) {
+  .btnWeb {
+    display: none;
+  }
+}
