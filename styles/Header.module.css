@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: var(--primary);
+
+  box-shadow: 1px 10px 40px #00000020;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoInit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.menuItem {
+  list-style: none;
+}
+
+.menuIcon {
+  font-size: 25px;
+  color: var(--dark);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.menuIcon:hover {
+  color: var(--darkHover);
+}
+
+.btnWeb {
+  background-color: var(--dark);
+  padding: 15px 40px 10px 40px;
+  color: var(--white);
+  text-decoration: none;
+  border: 1px solid var(--dark);
+  border-radius: 100px;
+
+  transition: all 300ms ease-in-out;
+}
+
+.btnWeb:hover {
+  background-color: transparent;
+  border: 1px solid var(--darkHover);
+  color: var(--dark);
+}
