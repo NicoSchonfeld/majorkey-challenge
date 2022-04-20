@@ -7,6 +7,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         <title>MajorKey App || Challenge</title>
+        <link rel="shortcut icon" href={"/image/M.svg"} />
       </Head>
 
       <Header />
