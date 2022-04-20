@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Hola</title>
+        <title>MajorKey App || Challenge</title>
       </Head>
 
       <Header />
